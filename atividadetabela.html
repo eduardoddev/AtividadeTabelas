@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 1</title>
+</head>
+<style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: separate;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px solid #9d9696;
+      text-align: center;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #aeb2ed;
+    }
+    </style>
+<body>
+    <table border="1">
+    <caption>Dados dos Alunos</caption><!--titulo da tabela-->
+        <tr>
+        <td><b>Nome</b></td>
+        <td><b>Telefone</b></td>
+        <td><b>Email</b></td>
+    </tr>
+    <tr>
+        <td>Alice</td>
+        <td>(81) 99999-9999</td>
+        <td>alice@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Bruno</td>
+        <td>(81) 98888-8888</td>
+        <td>bruno@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Carlos</td>
+        <td>(81) 97777-7777</td>
+        <td>carlos@outlook.com</td>
+    </tr>
+    <tr>
+        <td>Daniela</td>
+        <td>(81) 97777-9999</td>
+        <td>daniela@outlook.com</td>
+    </tr>
+    <tr>
+        <td>Danilo</td>
+        <td>(81) 95555-7777</td>
+        <td>danilo@outlook.com</td>
+    </tr>
+    <tr>
+        <td>Edson</td>
+        <td>(81) 97777-3333</td>
+        <td>edson@outlook.com</td>
+    </tr>
+    <tr>
+        <td>Fernada</td>
+        <td>(81) 95656-9999</td>
+        <td>fernanda@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Maria</td>
+        <td>(81) 97878-9999</td>
+        <td>maria@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Pablo</td>
+        <td>(81) 93489-9999</td>
+        <td>pablo@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Rafaela</td>
+        <td>(81) 99087-3333</td>
+        <td>rafaela@outlook.com</td>
+    </tr>
+</table><br>
+<!--A tag <tr>representa uma linha e a tag <td> representa uma célula.
+    Desta forma, a criação de colunas em uma tabela HTML é feita automaticamente
+    através da quantidade de células incluídas dentro de uma linha.-->
+    <table border="2">
+        <caption>Membros do Grupo</caption>
+        <tr>
+          <th>Nome</th>
+          <td>Aline</td>
+          <td>Daniel</td>
+          <td>Everton</td>
+          <td>Fabiano</td>
+          <td>Gabriella</td>
+          <td>Igor</td>
+          <td>Karina</td>
+          <td>Rafael</td>
+          <td>Samuel</td>
+          <td>Valter</td>
+        </tr>
+        <tr>
+            <th>Idade</th>
+            <td>23</td>
+            <td>25</td>
+            <td>30</td>
+            <td>27</td>
+            <td>36</td>
+            <td>40</td>
+            <td>21</td>
+            <td>34</td>
+            <td>20</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <th>Bairro</th>
+            <td>Boa Vista</td>
+            <td>Santo Amaro</td>
+            <td>Casa Amarela</td>
+            <td>Linha do Tiro</td>
+            <td>Ibura</td>
+            <td>Boa Viagem</td>
+            <td>Afogados</td>
+            <td>Ipsep</td>
+            <td>Barra de Jangada</td>
+            <td>Curado I</td>
+        </tr>
+    </table>
+    <!--Podemos ainda aplicar o <th> para títulos verticais, ou seja, na primeira coluna.-->
+            </head>
+            <body>
+            
+            <h2>HTML Table</h2>
+            
+            <table border="1">
+              <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+              </tr>
+              <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+              </tr>
+              <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+              </tr>
+              <tr>
+                <td>Ernst Handel</td>
+                <td>Roland Mendel</td>
+                <td>Austria</td>
+              </tr>
+              <tr>
+                <td>Island Trading</td>
+                <td>Helen Bennett</td>
+                <td>UK</td>
+              </tr>
+              <tr>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+                <td>Canada</td>
+              </tr>
+              <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+                <td>Italy</td>
+              </tr>
+            </table>
+            <!--O colspan=”x” vai fazer uma mesclagem de colunas, e o rowspan=”x” vai mesclar linhas,
+                bastando substituir o x pelo número de colunas ou linhas que deseja ocupar. -->
+</body>
+</html>
